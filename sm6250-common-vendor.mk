@@ -480,6 +480,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
@@ -490,6 +491,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -625,6 +627,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmiservices.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-colormgr-algo.so \
@@ -900,6 +904,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
@@ -1008,6 +1013,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbeauty_face_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeauty_face_interface.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
@@ -1034,6 +1040,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomprcapture.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
